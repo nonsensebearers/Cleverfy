@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #2196f3;
+        color:white;
+    }
+    
+    .kepala {
+        display: flex;
+    }
+    
+    .leher {
+        display: flex;
+    }
+    
+    .leher button {
+       margin-left: 10px;
+       cursor: pointer;
+       margin-right: 15px;
+    }
+    
+    .daftar {
+    background-color: white;
+    padding: 8px 11px;
+    border: 1px solid white;
+    color: #2196f3;
+
+}
+    
+    .pertama {
+        height: 10px;
+        width: 15px;
+    }
+    
+    .navigasi {
+        background-color: #2196f3;
+    }
+     
+    nav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    nav ul {
+        display: flex;
+        gap: 3rem;
+        list-style-type: none;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        font-weight: bold;
+    }
+    
+    .logodaftar {
+        width: 55px;
+        height: 55px;
+        border-radius: 35px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    fieldset {
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 15px;
+    }
+    
+    legend {
+        text-align: center;
+    }
+    
+    
+    .input {
+        display: block;
+        margin: 0 auto;
+        padding-right: 40px;
+        padding-top: 10px;
+    
+    }
+    
+    .inputdua {
+        display: block;
+        margin: 0 auto;
+        background-color: #2196f3;
+        border: none;
+        padding: 10px 20px;
+        color: white;
+    
+    }
+    
+    .label {
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+    
+    #judul {
+        text-align: center;
+    }
+    
+    .logo {
+        margin-top: 8px;
+        width: 55px;
+        height: 55px;
+        border-radius: 35px;
+        margin-left: 8px;
+        margin-right: 7px;
+    }
+
+    .fb {
+    width: 40px;
+    margin-right: 7px;
+}
+
+.ig {
+    margin-top: 6px;
+    width: 28px;
+    margin-right: 7px;
+}
+
+.wa {
+    margin-top: 5px;
+    width: 32px;
+    margin-left: 5px;
+}
+
+footer {
+   text-align: center;
+}
+.kontak {
+    justify-content: center;
+    display: flex;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="kepala">
+            <img src="Logo.jpg" alt="logo" class="logo">
+            <h1>CleverFy.id</h1>
+        </div>
+    
+        <div class="leher">
+            <a href="daftar.html"><button class="daftar">Daftar</button></a>
+    </header>
+    
+    <div class="navigasi">
+        <nav>
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html #about">About</a></li>
+                <li><a href="index.html #artikel">Article</a></li>
+                <li><a href="index.html #program">Program</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+         </nav>
+    </div>
+    
+    <br>
+    
+    <main>
+    <form name="formutama" action="/action_page.php" method="post" onsubmit="return validasimasuk()">
+        <fieldset>
+            <legend><img src="Logo.jpg" alt="logo" class="logodaftar"></legend>
+    
+            <h3 id="judul">Masuk Akun</h3>
+    
+    <label for="email" class="label">Email</label> 
+    <input type="email" id="email" class="input" name="email" required> 
+    
+    <label for="password" class="label">Password</label>
+    <input type="password" id="password" class="input" name="password" required> <br>
+    
+    <input type="submit" value="Masuk" class="inputdua">
+    </fieldset>
+</form>
+</main>
+<br><br><br><br><br>
+
+
+<footer>
+        
+    <div class="kontak">
+        <a href="https://www.facebook.com/"><img src="Asset/Socmed/fb.png" alt="socmed" class="fb"></a>
+        <a href="https://www.instagram.com/"><img src="Asset/Socmed/ig.png" alt="socmed" class="ig"></a> 
+        <a href=""><img src="Asset/Socmed/wa.jpg" alt="socmed" class="wa"></a> 
+    </div>
+        <p>&#169; 2024, CleverFy.id</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

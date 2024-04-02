@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2196f3;
+    color:white;
+}
+
+.kepala {
+    display: flex;
+}
+
+.logo {
+    margin-top: 8px;
+    width: 55px;
+    height: 55px;
+    border-radius: 35px;
+    margin-left: 8px;
+    margin-right: 7px;
+}
+
+.leher {
+    display: flex;
+}
+
+.leher button {
+   margin-left: 10px;
+   cursor: pointer;
+   margin-right: 15px;
+}
+
+.perkenalan {
+    margin: 5px 30px;
+}
+
+#about {
+    text-align: center;
+}
+
+
+.masuk {
+    background-color: transparent;
+    padding: 8px 11px;
+    border: 1px solid white;
+    color: white;
+}
+
+.daftar {
+    background-color: white;
+    padding: 8px 11px;
+    border: 1px solid white;
+    color: #2196f3;
+
+}
+
+.pertama {
+    height: 10px;
+    width: 15px;
+}
+
+.gbr {
+    width: 400px;
+}
+
+.p {
+    text-align: center;
+}
+
+#nelson {
+    height: 225px;
+}
+
+#malcolm {
+    height: 225px;
+}
+
+.kartu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    flex: 0 0 auto; /* Agar artikel tidak melebar */
+    transition: transform 0.5s ease; /* Animasi perpindahan */
+}
+
+.kartu p {
+    text-align: center;
+}
+
+.artikel {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+.prev,
+.next {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 30px;
+    border: none;
+    margin-top: 200px;
+    padding: 0px 10px;
+    margin-bottom: 150px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.main {
+    position: relative;
+}
+
+.navigasi {
+    background-color: #2196f3;
+}
+ 
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul {
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+
+.boot {
+    width: 400px;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 9px;
+}
+
+.program {
+    display: flex;
+}
+
+.fb {
+    width: 40px;
+    margin-right: 7px;
+}
+
+.ig {
+    margin-top: 6px;
+    width: 28px;
+    margin-right: 7px;
+}
+
+.wa {
+    margin-top: 5px;
+    width: 32px;
+    margin-left: 5px;
+}
+
+footer {
+   text-align: center;
+}
+.kontak {
+    justify-content: center;
+    display: flex;
+}
+
